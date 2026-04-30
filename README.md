@@ -88,7 +88,7 @@ Mon approche combine **ingénierie logicielle**, **DataOps**, **cloud computing*
   - Dockerisation complète  
   - CI/CD GitHub Actions pour automatiser l’entraînement et le déploiement  
 
-➡️ [Notebook](https://colab.research.google.com/drive/1WiVSzxKIoY-cm8H_63xpB5jCeaJOJufS?usp=sharing)
+➡️ [Notebook](https://colab.research.google.com/drive/1WiVSzxKIoY-cm8H_63xpB5jCeaJOJufS?usp=sharing)   
 ➡️ [Repo GitHub](https://github.com/2024-2025-estia-bihar/projet_final_thierno.git) 
 
 ---
@@ -110,7 +110,7 @@ Mon approche combine **ingénierie logicielle**, **DataOps**, **cloud computing*
 **Résultat :**  
 Le modèle multimodal surpasse largement les modèles unimodaux, notamment sur les classes rares, démontrant la pertinence de la fusion Vision+NLP.  
 
-➡️ [Notebook](https://colab.research.google.com/drive/1V_4GZUt7Cb7odcInEpU8nTTNbDnoacJU?usp=sharing) 
+➡️ [Notebook](https://colab.research.google.com/drive/1V_4GZUt7Cb7odcInEpU8nTTNbDnoacJU?usp=sharing)    
 ➡️ [Repo GitHub](https://github.com/2024-2025-estia-bihar/projet_final_thierno.git) 
 
 ---
