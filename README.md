@@ -88,8 +88,8 @@ Mon approche combine **ingénierie logicielle**, **DataOps**, **cloud computing*
   - Dockerisation complète  
   - CI/CD GitHub Actions pour automatiser l’entraînement et le déploiement  
 
-➡️ **Notebook :** *à ajouter*  
-➡️ **Repo GitHub :** *à ajouter*  
+➡️ **Notebook :** *https://colab.research.google.com/drive/1WiVSzxKIoY-cm8H_63xpB5jCeaJOJufS?usp=sharing*  
+➡️ **Repo GitHub :** *https://github.com/2024-2025-estia-bihar/projet_final_thierno.git*  
 
 ---
 
@@ -110,8 +110,8 @@ Mon approche combine **ingénierie logicielle**, **DataOps**, **cloud computing*
 **Résultat :**  
 Le modèle multimodal surpasse largement les modèles unimodaux, notamment sur les classes rares, démontrant la pertinence de la fusion Vision+NLP.  
 
-➡️ **Notebook :** *à ajouter*  
-➡️ **Repo GitHub :** *à ajouter*  
+➡️ **Notebook :** *https://colab.research.google.com/drive/1V_4GZUt7Cb7odcInEpU8nTTNbDnoacJU?usp=sharing*  
+➡️ **Repo GitHub :** *https://github.com/2024-2025-estia-bihar/projet_final_thierno.git*  
 
 ---
 
@@ -131,8 +131,7 @@ Le modèle multimodal surpasse largement les modèles unimodaux, notamment sur l
 **Résultat :**  
 Détection fiable des instants à risque et identification des configurations dangereuses, base d’un futur assistant d’alerte en temps réel.  
 
-➡️ **Notebook :** *à ajouter*  
-➡️ **Repo GitHub :** *à ajouter*
+➡️ **Notebook :** *https://drive.google.com/file/d/1yRlx5inmdyAUfpeUTDjNAC9rjRGB4JGt/view?usp=sharing*
 
 ---
 
