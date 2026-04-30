@@ -136,7 +136,7 @@ Détection fiable des instants à risque et identification des configurations da
 ---
 
 # 🤝 Contact  
-📧 **dthiernoali@gmail.com**
-☎️ **06 41 41 78 12**
+📧 **dthiernoali@gmail.com**   
+☎️ **06 41 41 78 12**   
 🔗 **LinkedIn :** [linkedin.com/in/thierno-diallo](https://www.linkedin.com/in/thierno-diallo-6a588b336/)  
 🔗 **GitHub :** [github.com/lethier96](https://github.com/lethier96)
