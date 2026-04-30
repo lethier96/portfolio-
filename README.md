@@ -74,40 +74,65 @@ Mon approche combine **ingénierie logicielle**, **DataOps**, **cloud computing*
 
 # 📂 Projets
 
-## 🔹 Moteur NLP/RAG pour support IT  
-**Tech :** Vertex AI, Vector Search, Python, FastAPI  
-**Objectif :** permettre aux agents support de retrouver rapidement des solutions via recherche sémantique + génération IA  
-**Fonctionnalités :**  
-- Embeddings + Vector Search  
-- RAG (retrieval-augmented generation)  
-- API REST déployée dans l’infra interne  
-➡️ **Repo :** *à ajouter*
+## 🔹 Prévision de séries temporelles météo & Déploiement MLOps  
+**Période :** avril 2025  
+**Tech :** ARIMA, SARIMA, SARIMAX, ML Regressors, FastAPI, Docker, SQLite, GitHub Actions  
+**Objectif :** prédire la température toutes les 3h à partir des données Open‑Meteo.  
+
+**Réalisations :**  
+- Pipeline complet : acquisition API → transformation → analyse → modélisation  
+- Modèles Time Series : ARIMA/SARIMA/SARIMAX + régressions ML avec lags & variables exogènes  
+- Mise en place d’un workflow **MLOps** :  
+  - Base SQLite pour le stockage  
+  - API FastAPI pour servir les prédictions  
+  - Dockerisation complète  
+  - CI/CD GitHub Actions pour automatiser l’entraînement et le déploiement  
+
+➡️ **Notebook :** *à ajouter*  
+➡️ **Repo GitHub :** *à ajouter*  
 
 ---
 
-## 🔹 Pipeline ETL pour tickets support  
-**Tech :** Python, SQL, Airflow, BigQuery  
-**Objectif :** structurer, nettoyer et analyser les tickets support  
-**Fonctionnalités :**  
-- Extraction multi-sources  
-- Normalisation & classification  
-- Monitoring & Data Quality  
-➡️ **Repo :** *à ajouter*
+## 🔹 Classification multimodale (Images + Textes) avec Deep Learning  
+**Période :** mars 2025  
+**Tech :** CNN, VGG19, ResNet50, LSTM, Bi‑LSTM‑CNN, GloVe, TF‑Dataset, LIME  
+**Dataset :** Kaggle Multi‑Label Classification Competition 2023  
+
+**Objectif :** construire un modèle multi‑label multimodal combinant vision + NLP.  
+
+**Approche :**  
+- **Prétraitement avancé** : nettoyage texte, tokenisation, embeddings GloVe, normalisation images  
+- **Vision** : CNN custom, VGG19 fine‑tuned, ResNet50  
+- **NLP** : Logistic Regression, Random Forest, LSTM, LSTM‑GloVe, LSTM‑CNN, Bi‑LSTM‑CNN  
+- **Fusion multimodale** : late fusion (concat embeddings visuels + textuels), joint training dual‑input  
+- **Interprétabilité** : LIME pour analyser régions visuelles & tokens influents  
+
+**Résultat :**  
+Le modèle multimodal surpasse largement les modèles unimodaux, notamment sur les classes rares, démontrant la pertinence de la fusion Vision+NLP.  
+
+➡️ **Notebook :** *à ajouter*  
+➡️ **Repo GitHub :** *à ajouter*  
 
 ---
 
-## 🔹 Projets IA / Data Science (perso)  
-- Classification NLP  
-- Analyse exploratoire  
-- Modèles ML end-to-end  
-➡️ **Repos :** *à ajouter*
+## 🔹 IA pour la prédiction des situations de danger chez les techniciens terrain  
+**Période :** nov. 2024 – déc. 2024  
+**Tech :** Feature engineering temporel, Apriori, Local Outlier Factor (LOF), ML non supervisé  
+**Données :** capteurs EPI relevés toutes les 5 secondes  
 
----
+**Objectif :** détecter automatiquement les situations de danger lors d’interventions électriques.  
 
-## 🔹 Dashboards BI  
-**Tech :** Power BI, Looker Studio  
-**Objectif :** suivi KPI, monitoring qualité, analyse volumétrique  
-➡️ **Repos :** *à ajouter*
+**Pipeline :**  
+- Nettoyage & fusion multi‑techniciens  
+- Feature engineering temporel  
+- Règles d’association (Apriori) pour identifier combinaisons d’EPI critiques  
+- Détection d’anomalies via **Local Outlier Factor**  
+
+**Résultat :**  
+Détection fiable des instants à risque et identification des configurations dangereuses, base d’un futur assistant d’alerte en temps réel.  
+
+➡️ **Notebook :** *à ajouter*  
+➡️ **Repo GitHub :** *à ajouter*
 
 ---
 
